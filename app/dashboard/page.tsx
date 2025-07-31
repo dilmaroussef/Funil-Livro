@@ -166,7 +166,7 @@ export default function Dashboard() {
           <Card className="bg-card/80 backdrop-blur-sm border-border shadow-lg">
             <CardContent className="p-2 sm:p-3 text-center">
               <div className="text-xs text-muted-foreground mb-1">Hoje</div>
-              <div className="text-lg sm:text-xl font-bold text-accent">{booksReadToday} livros</div>
+              <div className="text-lg sm:text-xl font-bold text-white">{booksReadToday} livros</div>
             </CardContent>
           </Card>
         </div>
@@ -191,6 +191,11 @@ export default function Dashboard() {
               <Card className="bg-card/80 backdrop-blur-sm border-border shadow-lg hover:shadow-xl transition-all duration-300">
                 <CardContent className="p-3 sm:p-4">
                   <div className="flex justify-between items-center">
+                    <img
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/semi-realistic-book-cover-illustration-f_irrLsXdeTvy0IpvMPcq5jg_VfI8BfgeSsi4ftqxDyc0iA-nZifKROFAyAfCromt6Hkwz9iWz7qeJ.jpeg"
+                      alt="Capa do livro As Sombras de Eldoria"
+                      className="w-16 h-20 sm:w-20 sm:h-24 object-cover rounded-md flex-shrink-0 mr-3"
+                    />
                     <div className="flex-1 min-w-0">
                       <h3 className="text-sm sm:text-base font-semibold text-foreground mb-1 truncate">
                         As Sombras de Eldoria
@@ -227,6 +232,11 @@ export default function Dashboard() {
               <Card className="bg-card/50 backdrop-blur-sm border-border shadow-lg opacity-75">
                 <CardContent className="p-3 sm:p-4">
                   <div className="flex justify-between items-center">
+                    <img
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/modern-thriller-book-cover-design-a-red-_Ka_-QP9ARVSD9mkpLhC35w_D7nlWDVoTBuISL3Pe9R2yA-vW1kT6n0WpdZf2PC97q8trPXSSkuP0.jpeg"
+                      alt="Capa do livro Código Vermelho"
+                      className="w-16 h-20 sm:w-20 sm:h-24 object-cover rounded-md flex-shrink-0 mr-3 opacity-75"
+                    />
                     <div className="flex-1 min-w-0">
                       <h3 className="text-sm sm:text-base font-semibold text-muted-foreground mb-1 truncate">
                         Código Vermelho
@@ -257,6 +267,11 @@ export default function Dashboard() {
               <Card className="bg-card/50 backdrop-blur-sm border-border shadow-lg opacity-75">
                 <CardContent className="p-3 sm:p-4">
                   <div className="flex justify-between items-center">
+                    <img
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/a-digital-painting-depicting-a-forgotten_f9jctF-YSI6cGIcIBSqwRA_LaaP_TF_QJqj8__VMAIGdQ-YVVLJWtgimNFSwSsccDRTYORPB3tRK.jpeg"
+                      alt="Capa do livro O Jardim das Memórias Perdidas"
+                      className="w-16 h-20 sm:w-20 sm:h-24 object-cover rounded-md flex-shrink-0 mr-3 opacity-75"
+                    />
                     <div className="flex-1 min-w-0">
                       <h3 className="text-sm sm:text-base font-semibold text-muted-foreground mb-1 truncate">
                         O Jardim das Memórias Perdidas
@@ -308,7 +323,7 @@ export default function Dashboard() {
 
               <Card className="bg-card/80 backdrop-blur-sm border-border shadow-lg">
                 <CardContent className="p-2 sm:p-3 text-center">
-                  <BookOpen className="w-5 h-5 sm:w-6 sm:h-6 text-accent mx-auto mb-1 sm:mb-2" />
+                  <BookOpen className="w-5 h-5 sm:w-6 sm:h-6 mx-auto mb-1 sm:mb-2 text-white" />
                   <h3 className="text-xs sm:text-sm font-semibold text-foreground mb-1">Biblioteca</h3>
                   <p className="text-xs text-muted-foreground mb-1 sm:mb-2">Ver biblioteca completa</p>
                   <Button
@@ -316,7 +331,7 @@ export default function Dashboard() {
                     className="w-full border-accent text-accent hover:bg-accent/10 bg-transparent text-xs py-1 h-6 sm:h-7"
                     onClick={() => router.push("/library")}
                   >
-                    <BookOpen className="w-3 h-3 mr-1" />
+                    <BookOpen className="w-3 h-3 mr-1 text-white" />
                     Todos os Livros
                   </Button>
                 </CardContent>

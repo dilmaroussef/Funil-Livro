@@ -124,8 +124,8 @@ export default function WalletPage() {
 
           <Card className="bg-card/80 backdrop-blur-sm border-border shadow-lg">
             <CardContent className="p-8 text-center">
-              <BookOpen className="w-12 h-12 text-accent mx-auto mb-4" />
-              <div className="text-3xl font-bold text-accent mb-2">{booksEvaluated}</div>
+              <BookOpen className="w-12 h-12 text-accent mx-auto mb-4 bg-emerald-500" />
+              <div className="text-3xl font-bold mb-2 text-emerald-400">{booksEvaluated}</div>
               <div className="text-muted-foreground">Livros Avaliados</div>
               <p className="text-sm text-muted-foreground/80 mt-2">Número total de livros que você avaliou</p>
             </CardContent>

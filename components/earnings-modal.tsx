@@ -82,11 +82,11 @@ export function EarningsModal({ isOpen, onClose, bookTitle, readingTimeSeconds, 
             {/* Explanation */}
             <Card className="bg-yellow-50 border-yellow-200 mb-6">
               <CardContent className="p-4">
-                <h4 className="font-semibold text-destructive-foreground mb-2">⚠️ Por que isso aconteceu?</h4>
+                <h4 className="font-semibold mb-2 text-black">⚠️ Por que isso aconteceu?</h4>
                 <ul className="text-destructive-foreground/90 text-sm space-y-1">
-                  <li>• O tempo mínimo para ler este livro é de 30 segundos</li>
-                  <li>• Nosso sistema detecta tentativas de burlar o sistema</li>
-                  <li>• Para receber o pagamento, você deve ler o conteúdo</li>
+                  <li className="text-black">• O tempo mínimo para ler este livro é de 30 segundos</li>
+                  <li className="text-black">• Nosso sistema detecta tentativas de burlar o sistema</li>
+                  <li className="text-black">• Para receber o pagamento, você deve ler o conteúdo</li>
                 </ul>
               </CardContent>
             </Card>

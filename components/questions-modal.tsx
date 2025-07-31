@@ -405,7 +405,7 @@ export function QuestionsModal({ isOpen, onClose, bookTitle, readingTimeSeconds,
                         return (
                           <div key={q.id} className="flex justify-between">
                             <span>Avaliação {index + 1}:</span>
-                            <span className="font-medium text-accent">+{selectedOption?.points || 0} pontos</span>
+                            <span className="font-medium text-lime-400">+{selectedOption?.points || 0} pontos</span>
                           </div>
                         )
                       })}
@@ -425,7 +425,7 @@ export function QuestionsModal({ isOpen, onClose, bookTitle, readingTimeSeconds,
                       </div>
                       <div className="flex justify-between">
                         <span>Bônus de tempo:</span>
-                        <span className="font-medium text-accent">+{earnings.timeBonus} pontos</span>
+                        <span className="font-medium text-teal-300">+{earnings.timeBonus} pontos</span>
                       </div>
                     </div>
                   </div>

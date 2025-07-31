@@ -133,10 +133,10 @@ export function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
       }
     }
 
-    // Redirecionar para a página de checkout LiraPay do upgrade com UTMs
+    // Redirecionar para a página de checkout MundPay do upgrade com UTMs
     const upgradeUrl = utmParams
-      ? `https://pay.lirapaybr.com/XwMMWnwQ?${utmParams}`
-      : "https://pay.lirapaybr.com/XwMMWnwQ"
+      ? `https://pay.mundpay.com/01986143-07f9-70d1-8893-0602b193f50e?ref=${utmParams}`
+      : "https://pay.mundpay.com/01986143-07f9-70d1-8893-0602b193f50e?ref="
 
     window.location.href = upgradeUrl
   }
@@ -372,8 +372,8 @@ export function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
                           <div className="w-16 h-16 bg-gradient-to-br from-accent to-accent/80 rounded-full flex items-center justify-center mx-auto mb-4">
                             <Globe className="w-8 h-8 text-white" />
                           </div>
-                          <h3 className="text-xl font-bold text-foreground mb-2">Upgrade para Internacional</h3>
-                          <p className="text-muted-foreground text-sm">
+                          <h3 className="text-xl font-bold mb-2 text-black">Upgrade para Internacional</h3>
+                          <p className="text-sm text-green-700">
                             Libere sua conta para avaliar livros em inglês e receber pagamentos em dólares. Acesse uma
                             nova biblioteca de livros internacionais!
                           </p>
@@ -381,7 +381,7 @@ export function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
 
                         <div className="bg-accent/10 rounded-lg p-4 mb-6">
                           <div className="text-center">
-                            <div className="text-sm text-muted-foreground mb-1">Taxa de upgrade:</div>
+                            <div className="text-sm mb-1 text-teal-800">Taxa de upgrade:</div>
                             <div className="text-2xl font-bold text-accent mb-2">R$ 39,99</div>
                             <div className="text-xs text-gray-500">Pagamento único via PIX</div>
                           </div>

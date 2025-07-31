@@ -134,14 +134,14 @@ export default function BookReading({ params }: { params: { id: string } }) {
             <h2 className="text-lg sm:text-xl font-semibold text-foreground mb-4 sm:mb-6">Conteúdo do Livro</h2>
 
             <div className="prose prose-sm sm:prose prose-invert max-w-none text-foreground leading-relaxed space-y-3 sm:space-y-4">
-              <p>
+              <p className="text-white">
                 O vento sussurrava segredos antigos através das torres de cristal de Eldoria, carregando consigo o aroma
                 de pergaminhos envelhecidos e a promessa de tempestades distantes. Lyra ajustou seus óculos de leitura e
                 mergulhou mais fundo na penumbra da Grande Biblioteca, onde as sombras dançavam entre estantes que se
                 perdiam nas alturas nebulosas do teto abobadado.
               </p>
 
-              <p>
+              <p className="text-white">
                 Havia três dias que ela não dormia adequadamente, consumida pela descoberta que fizera nos arquivos
                 proibidos. O manuscrito que agora repousava diante dela, escrito em runas que pulsavam com uma luz fraca
                 e dourada, continha revelações que poderiam abalar os próprios alicerces do reino. As palavras pareciam
@@ -149,14 +149,14 @@ export default function BookReading({ params }: { params: { id: string } }) {
                 pergaminho.
               </p>
 
-              <p>
+              <p className="text-white">
                 'Os Últimos Dias da Era Dourada', lia o título em caracteres que mudavam de cor conforme a luz
                 incidente. O texto falava de um tempo em que dragões e humanos viviam em harmonia, quando a magia fluía
                 livremente pelas veias da terra como rios de luz líquida. Mas algo havia acontecido, algo terrível que
                 forçara os dragões a um sono profundo e fizera a magia definhar como flores no inverno.
               </p>
 
-              <p>
+              <p className="text-white">
                 Lyra virou a página com dedos trêmulos. Ali estava o que ela mais temia encontrar: a Profecia da Escolha
                 Final. Segundo o texto, quando a magia estivesse quase extinta, um Escriba Escolhido emergiria para
                 despertar os dragões adormecidos. Mas o despertar viria com um preço - o Escolhido deveria sacrificar
@@ -164,40 +164,40 @@ export default function BookReading({ params }: { params: { id: string } }) {
                 trevas eternas.
               </p>
 
-              <p>
+              <p className="text-white">
                 O som de passos ecoando pelos corredores de mármore fez Lyra erguer a cabeça bruscamente. Ela reconheceu
                 imediatamente o caminhar pesado e determinado do Grão-Mestre Aldric, o guardião dos segredos mais
                 profundos da biblioteca. Rapidamente, ela fechou o manuscrito e o escondeu entre outros tomos menos
                 controversos, fingindo estudar um tratado sobre herbologia élfica.
               </p>
 
-              <p>
+              <p className="text-white">
                 'Trabalhando até tarde novamente, jovem Lyra?' A voz grave de Aldric ecoou entre as estantes, carregando
                 uma nota de preocupação paternal. Ele emergiu das sombras como um fantasma benevolente, sua barba
                 prateada brilhando sob a luz mágica das velas flutuantes.
               </p>
 
-              <p>
+              <p className="text-white">
                 'Os estudos sobre as antigas línguas requerem dedicação, Mestre', respondeu ela, tentando manter a voz
                 firme. 'Há tanto conhecimento perdido esperando para ser redescoberto.'
               </p>
 
-              <p>
+              <p className="text-white">
                 Aldric aproximou-se, seus olhos azuis penetrantes parecendo ver através da fachada que ela tentava
                 manter. 'Conhecimento perdido pode ser perigoso, criança. Alguns segredos foram enterrados por boas
                 razões.' Ele fez uma pausa, observando-a com atenção. 'Você tem sentido... mudanças ultimamente? Sonhos
                 estranhos? Visões?'
               </p>
 
-              <p>
+              <p className="text-white">
                 O coração de Lyra acelerou. Como ele poderia saber sobre os sonhos? Sobre as imagens de dragões dourados
                 que visitavam seu sono, sussurrando palavras em línguas que ela não deveria compreender, mas
                 compreendia? Sobre a sensação crescente de que algo antigo e poderoso estava despertando dentro dela?
               </p>
 
-              <p>'Eu... não sei do que está falando, Mestre', mentiu ela, mas sua voz traiu sua incerteza.</p>
+              <p className="text-white">'Eu... não sei do que está falando, Mestre', mentiu ela, mas sua voz traiu sua incerteza.</p>
 
-              <p>
+              <p className="text-white">
                 Aldric suspirou profundamente, como se carregasse o peso de séculos em seus ombros. 'A magia está
                 morrendo, Lyra. Você deve ter notado - os cristais de luz estão perdendo seu brilho, as poções dos
                 curandeiros estão falhando, até mesmo os pergaminhos auto-escreventes estão ficando mudos.' Ele se
@@ -205,33 +205,33 @@ export default function BookReading({ params }: { params: { id: string } }) {
                 Energias antigas estão se movendo nas profundezas da terra.'
               </p>
 
-              <p>Lyra sentiu um arrepio percorrer sua espinha. 'O que isso significa?'</p>
+              <p className="text-white">Lyra sentiu um arrepio percorrer sua espinha. 'O que isso significa?'</p>
 
-              <p>
+              <p className="text-white">
                 'Significa que o tempo das escolhas difíceis está chegando', respondeu Aldric, seus olhos fixos nos
                 dela. 'E que alguns de nós podem ser chamados a fazer sacrifícios que nunca imaginamos.'
               </p>
 
-              <p>
+              <p className="text-white">
                 Naquela noite, sozinha em seus aposentos na torre dos escribas, Lyra não conseguiu afastar os
                 pensamentos sobre a conversa com Aldric. Ela sabia que ele suspeitava de algo, talvez até soubesse sobre
                 sua descoberta do manuscrito proibido. Mas havia algo mais em seus olhos, uma mistura de medo e
                 esperança que a deixava inquieta.
               </p>
 
-              <p>
+              <p className="text-white">
                 Quando finalmente conseguiu adormecer, os sonhos vieram com mais intensidade do que nunca. Ela se viu
                 voando sobre paisagens que não existiam mais, montada nas costas de um dragão dourado cujas escamas
                 brilhavam como sol líquido. Abaixo deles, florestas de árvores cristalinas se estendiam até o horizonte,
                 e rios de luz pura serpenteavam pela terra como veias de prata.
               </p>
 
-              <p>
+              <p className="text-white">
                 'O tempo está chegando, Escriba', disse o dragão, sua voz ressoando diretamente em sua mente. 'A escolha
                 que definirá o destino de todos nós está próxima. Você está preparada para pagar o preço da salvação?'
               </p>
 
-              <p>
+              <p className="text-white">
                 Lyra acordou com lágrimas nos olhos e uma certeza terrível no coração. Ela era a Escriba Escolhida da
                 profecia, e em breve teria que decidir entre salvar o mundo que amava ou preservar sua própria vida. A
                 magia de Eldoria dependia de sua escolha, e o tempo estava se esgotando.
