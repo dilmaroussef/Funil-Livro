@@ -134,11 +134,12 @@ export function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
     }
 
     // Redirecionar para a página de checkout MundPay do upgrade com UTMs
-    const upgradeUrl = utmParams
-      ? `https://pay.mundpay.com/01986143-07f9-70d1-8893-0602b193f50e?ref=${utmParams}`
-      : "https://pay.mundpay.com/01986143-07f9-70d1-8893-0602b193f50e?ref="
+const upgradeUrl = utmParams
+  ? `https://pay.mundpay.com/01986143-07f9-70d1-8893-0602b193f50e?ref=${utmParams}`
+  : "https://pay.mundpay.com/01986143-07f9-70d1-8893-0602b193f50e?ref=";
 
-    window.location.href = upgradeUrl
+// Abre o link de upgrade em uma NOVA GUIA
+window.open(upgradeUrl, '_blank', 'noopener,noreferrer');
   }
 
   const handleModeChange = (mode: string) => {
