@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 210 24% 7%; /* #0D1117 */
+    --foreground: 0 0% 100%; /* #FFFFFF */
+    --card: 215 24% 9%; /* #12161D */
+    --card-foreground: 0 0% 100%; /* #FFFFFF */
+    --popover: 215 24% 9%; /* #12161D */
+    --popover-foreground: 0 0% 100%; /* #FFFFFF */
+    --primary: 161 84% 39%; /* #10B981 */
+    --primary-foreground: 0 0% 100%; /* #FFFFFF */
+    --secondary: 214 20% 13%; /* #1A1F27 */
+    --secondary-foreground: 220 3% 89%; /* #E4E4E7 */
+    --muted: 214 20% 13%; /* #1A1F27 */
+    --muted-foreground: 220 3% 89%; /* #E4E4E7 */
+    --accent: 214 20% 13%; /* #1A1F27 */
+    --accent-foreground: 0 0% 100%; /* #FFFFFF */
+    --destructive: 0 84.2% 60.2%; /* Keep a distinct red for destructive actions */
+    --destructive-foreground: 0 0% 98%; /* Keep white for destructive text */
+    --border: 214 20% 13%; /* #1A1F27 */
+    --input: 214 20% 13%; /* #1A1F27 */
+    --ring: 161 84% 39%; /* #10B981 */
+    --chart-1: 161 84% 39%;
+    --chart-2: 215 24% 9%;
+    --chart-3: 210 24% 7%;
+    --chart-4: 220 3% 89%;
+    --chart-5: 0 0% 100%;
+    --radius: 0.5rem;
+    --sidebar-background: 210 24% 7%; /* #0D1117 */
+    --sidebar-foreground: 0 0% 100%; /* #FFFFFF */
+    --sidebar-primary: 161 84% 39%; /* #10B981 */
+    --sidebar-primary-foreground: 0 0% 100%; /* #FFFFFF */
+    --sidebar-accent: 214 20% 13%; /* #1A1F27 */
+    --sidebar-accent-foreground: 0 0% 100%; /* #FFFFFF */
+    --sidebar-border: 214 20% 13%; /* #1A1F27 */
+    --sidebar-ring: 161 84% 39%; /* #10B981 */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
