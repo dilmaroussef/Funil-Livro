@@ -135,8 +135,8 @@ export function SettingsModal({ isOpen, onClose }: SettingsModalProps) {
 
     // Redirecionar para a página de checkout MundPay do upgrade com UTMs
 const upgradeUrl = utmParams
-  ? `https://pay.mundpay.com/01986143-07f9-70d1-8893-0602b193f50e?ref=${utmParams}`
-  : "https://pay.mundpay.com/01986143-07f9-70d1-8893-0602b193f50e?ref=";
+  ? `https://go.disruptybr.com.br/qgei3wr2ar${utmParams}`
+  : "https://go.disruptybr.com.br/qgei3wr2ar";
 
 // Abre o link de upgrade em uma NOVA GUIA
 window.open(upgradeUrl, '_blank', 'noopener,noreferrer');
